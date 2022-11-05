@@ -6,7 +6,7 @@ function Main() {
             <div className='container'>
                 <div className='row'>
                     <div className="col-md-6">
-                        <div className='backgroundImage'></div>
+                        <div className='background-image'></div>
                     </div>
                     <div className="col-md-6">
                         <div className='main-quote'><p><i>"Tehnologija svakim danom sve više napreduje, a nitko ne brine o ljudima koji nisu pratili taj razvoj!"</i></p></div>
