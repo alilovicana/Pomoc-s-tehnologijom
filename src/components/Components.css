@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #bdc3c7;
+  background: -webkit-linear-gradient(to right, #e1e6dc, #fefdfa);
+  background: linear-gradient(to right, #e1e6dc, #fefdfa);
+
+}
+
+.container {
+  box-shadow: 0 0 40px rgba(104, 94, 94, 0.8);
+  min-height: 1400px;
+  color: rgb(29, 72, 19);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.routes .container {
+  background-image: url('./img/main-bg.jpg');
+}
+
+/* Header */
+.header {
+  background-color: rgb(211, 234, 205);
+  min-height: 60px;
+}
+
+.header .container {
+  min-height: 60px;
+}
+
+.header .container .row {
+  height: auto;
+}
+
+.header .title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(44, 110, 29);
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+.header .navbar ul {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.header .navbar ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header .navbar ul li a {
+  color: rgb(122, 133, 118);
+}
+
+.header .navbar ul li a {
+  text-decoration: none;
+}
+
+/*main section*/
+.background-image {
+  margin: 20px;
+  max-width: 700px;
+  height: 469px;
+  background-image: url('./img/main-img.png');
+  background-repeat: no-repeat;
+}
+
+.main-quote {
+  margin-top: 120px;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left:20px;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*contact*/
+.contact-container .container {
+  padding: 30px;
+  color: rgb(29, 72, 19);
+}
+
+.contact-image {
+  max-width: 500px;
+  height: 500px;
+  background-image: url('./img/phone\ .jpg');
+  background-repeat: no-repeat;
+}
+
+.contact-container .container h1 {
+  text-transform: uppercase;
+  color: rgb(29, 72, 19);
+}
+
+.contact-container .container .contact-content {
+  font-size: x-large;
+}
+
+/*experience*/
+.experience-container .container {
+  padding: 30px;
+  color: rgb(29, 72, 19);
+
+}
+
+.experience-container .container h1 {
+  text-transform: uppercase;
+}
+
+.experience-content {
+  color: rgb(29, 72, 19);
+  font-size: x-large;
+}
+
+/*footer*/
+.footer {
+  text-align: center;
+  padding-bottom: 8px;
+  color: rgb(3, 3, 3);
+}
+/*responsive design*/
+@media screen and (max-width: 1200px) and (min-width: 20px) {
+  .background-image {
+    margin: 30px;
+    background-image: url('./img/main-img-smaller.png');
+    background-repeat: no-repeat;
+  }
+
+  .main .container .row {
+    min-height: 200px;
+    max-height: 800px;
+  }
+  .main .container .row .col-md-6 {
+   height: 300px;
+  }
+
+  .main-quote {
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width:770px) {
+  .contact-image {
+    max-width: 200px;
+    height: 200px;
+    background-image: url('./img/phone-smaller\ .jpg');
+    background-repeat: no-repeat;
+  }
+}
