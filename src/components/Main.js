@@ -13,9 +13,9 @@ function Main() {
                     </div>
                 </div>
                 <div className='main-content'>
-                    <div><p><h2><b>Pružamo usluge OBUKE korištenja moderne tehnologije (mobitela i laptopa) !</b></h2><br></br>
-                        Naš cilj je klijente na jednostavan i lak način obučiti kako bi se mogli samostalno koristiti željenim uređajima.<br></br>
-                        Ukoliko imate problema s korištenjem moderne tehnologije, tu smo kako bi Vam pomogli!</p></div>
+                    <div><h2><b>Pružamo usluge OBUKE korištenja moderne tehnologije (mobitela i laptopa) !</b></h2><br></br>
+                        <p>Naš cilj je klijente na jednostavan i lak način obučiti kako bi se mogli samostalno koristiti željenim uređajima.<br></br>
+                            Ukoliko imate problema s korištenjem moderne tehnologije, tu smo kako bi Vam pomogli!</p></div>
                     <h2>Dolazak na kućnu adresu!</h2>
                 </div>
             </div>
