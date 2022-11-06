@@ -13,6 +13,7 @@ body {
 .container {
   box-shadow: 0 0 40px rgba(104, 94, 94, 0.8);
   min-height: 1400px;
+  max-width: 900px ;
   color: rgb(29, 72, 19);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
