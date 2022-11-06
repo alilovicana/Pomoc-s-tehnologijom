@@ -7,8 +7,7 @@ function experience() {
                 <div className='experience-content'><p>Radili smo s osobama između 65 i 82 godine. Osobe su bile muškog i ženskog spola. <br>
                 </br>Većini je bila potrebna pomoć s korištenjem Whatsapp aplikacije, te usluge temeljnog<br></br> znanja o telefonima (pozivanje, pisanje poruka...)<br>
                     </br>Trajanje obuke ovisi o predznanju i željama kandidata.<br>
-                    </br><br>
-                    </br>Lijep pozdrav!</p></div>
+                    </br></p></div>
             </div>
         </div>
     )
